@@ -16,7 +16,7 @@ def pascal_triangle(n):
     """
     if n <= 0:
         return []
-    
+
     # Initialize the first row of the Pascal's triangle
     triangle = []
 
@@ -28,5 +28,5 @@ def pascal_triangle(n):
             row[j] = triangle[i-1][j-1] + triangle[i-1][j]
         # Append the row to the triangle
         triangle.append(row)
-    
+
     return triangle
