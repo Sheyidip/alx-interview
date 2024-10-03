@@ -1,11 +1,12 @@
 #!/usr/bin/python3
 """
-# This script generates Pascal's Triangle up to n rows
+This script generates Pascal's Triangle up to n rows
 """
+
 
 def pascal_triangle(n):
     """
-    Returns a list of lists of integers representing the Pascal’s triangle of n.
+    Returns a list of integers representing the Pascal’s triangle of n.
 
     Args:
         n (int): The number of rows of Pascal's triangle to generate.
