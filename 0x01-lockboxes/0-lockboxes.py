@@ -22,3 +22,7 @@ def canUnlockAll(boxes):
                     keys.append(key)
 
     return all(unlocked)
+
+
+cha = [[2], [0, 2], [1], []]
+print(canUnlockAll(cha))
