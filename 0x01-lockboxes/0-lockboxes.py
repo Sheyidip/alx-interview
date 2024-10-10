@@ -11,10 +11,10 @@ def canUnlockAll(boxes):
 
     n = {0}
     unlocked = [False] * len(boxes)
-    unlocked[0] = True # start by unlocking the first box
-    keys = boxes[0] # start with the keys in the first box 
+    unlocked[0] = True  # start by unlocking the first box
+    keys = boxes[0]  # start with the keys in the first box
 
-    for i in range(len(n)) :
+    for i in range(len(n)):
         if unlocked[i]:
             for key in boxes[i]:
                 if key < len(boxes) and not unlocked[i]:
@@ -22,4 +22,3 @@ def canUnlockAll(boxes):
                     keys.append(key)
 
     return all(unlocked)
-        
