@@ -18,6 +18,6 @@ def primeNumbers(n):
                 filtered[i] = False
     return primeNos
 
-if __name__ == "__main__"y:
+
+if __name__ == "__main__":
     print(primeNumbers(n))
-    
