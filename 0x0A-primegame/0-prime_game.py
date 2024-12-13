@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""
+0;115;0c"""
   Module: Game of choosing Prime numbers
 """
 
@@ -18,6 +18,6 @@ def primeNumbers(n):
                 filtered[i] = False
     return primeNos
 
-if __name__ == __main__:
+if __name__ == "__main__"y:
     print(primeNumbers(n))
     
