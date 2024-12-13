@@ -5,9 +5,8 @@
 
 
 def primeNumbers(n):
-    """Return list of prime numbers between 1 and n inclusive
-       Args:
-        n (int): upper boundary of range. lower boundary is always 1
+    """
+      Return list of prime numbers between 1 and n inclusive args
     """
     primeNos = []
     filtered = [True] * (n + 1)
