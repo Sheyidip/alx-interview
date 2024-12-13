@@ -27,3 +27,4 @@ Third round: 1
 
 Ben wins because there are no prime numbers for Maria to choose
 Result: Ben has the most wins
+updated
