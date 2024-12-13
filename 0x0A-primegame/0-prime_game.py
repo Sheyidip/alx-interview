@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Module: Game of choosing Prime numbers
+  Module: Game of choosing Prime numbers
 """
 
 
@@ -17,3 +17,7 @@ def primeNumbers(n):
             for i in range(prime, n + 1, prime):
                 filtered[i] = False
     return primeNos
+
+if __name__ == __main__:
+    print(primeNumbers(n))
+    
