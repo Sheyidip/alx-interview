@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-0;115;0c"""
+"""
   Module: Game of choosing Prime numbers
 """
 
